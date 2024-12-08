@@ -57,11 +57,11 @@ DB_DATABASE=<your-database-name>
 SESSION_PASSWORD=<your-session-password>
 
 ### 4. Run the Development Server
-Navigate to:
+npm run dev 
 The application will be accessible at http://localhost:3000.
 
 ### 5. Access the Login Page
-npm run dev
+Navigate to:
 http://localhost:3000/login
 This will take you to the login page.
 
