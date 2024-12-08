@@ -57,27 +57,32 @@ DB_DATABASE=<your-database-name>
 SESSION_PASSWORD=<your-session-password>
 
 ### 4. Run the Development Server
-npm run dev
+Navigate to:
 The application will be accessible at http://localhost:3000.
 
-## How it works:
-# Sign-Up
+### 5. Access the Login Page
+npm run dev
+http://localhost:3000/login
+This will take you to the login page.
+
+# How it works:
+## Sign-Up
 Navigate to the Sign-Up Page.
 Enter your name, email (must end with @lakeheadu.ca), and password.
 Upon successful registration, the user is redirected to the Home Page.
 
-# Login
+## Login
 Enter your registered email and password on the Login Page.
 Successful login redirects to the Home Page.
 
-# Home Page
+## Home Page
 Displays property listings fetched from the Houses table.
 Users can interact with listings using:
 Interested Button: Marks the property as "interested."
 Remove Button: Removes the listing from the view.
 
-# Profile Page
+## Profile Page
 View and update your profile information.
 
-# Sign-Out
+## Sign-Out
 Ends the session and redirects to the Login Page.
