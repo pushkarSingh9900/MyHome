@@ -50,36 +50,36 @@ npm install
 
 ### 3. Configure Environment Variables
 Create a .env.local file in the project root with the following keys:
-DB_USER=<your-database-username>
-DB_PASSWORD=<your-database-password>
-DB_SERVER=<your-database-server>
-DB_DATABASE=<your-database-name>
-SESSION_PASSWORD=<your-session-password>
+- DB_USER= your-database-username
+- DB_PASSWORD= your-database-password
+- DB_SERVER= your-database-server
+- DB_DATABASE= your-database-name
+- SESSION_PASSWORD= your-session-password 
 
 ### 4. Run the Development Server
 npm run dev 
-The application will be accessible at http://localhost:3000.
+- The application will be accessible at http://localhost:3000.
 
 ### 5. Access the Login Page
 Navigate to:
-http://localhost:3000/login
-This will take you to the login page.
+- http://localhost:3000/login
+- This will take you to the login page.
 
 # How it works:
 ## Sign-Up
 Navigate to the Sign-Up Page.
-Enter your name, email (must end with @lakeheadu.ca), and password.
-Upon successful registration, the user is redirected to the Home Page.
+- Enter your name, email (must end with @lakeheadu.ca), and password.
+- Upon successful registration, the user is redirected to the Home Page.
 
 ## Login
 Enter your registered email and password on the Login Page.
-Successful login redirects to the Home Page.
+- Successful login redirects to the Home Page.
 
 ## Home Page
 Displays property listings fetched from the Houses table.
-Users can interact with listings using:
-Interested Button: Marks the property as "interested."
-Remove Button: Removes the listing from the view.
+- Users can interact with listings using:
+- Interested Button: Marks the property as "interested."
+- Remove Button: Removes the listing from the view.
 
 ## Profile Page
 View and update your profile information.
